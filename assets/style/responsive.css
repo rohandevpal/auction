@@ -1,0 +1,199 @@
+/* Media */
+@media (max-width: 1600px) {
+  .side_padding {
+    padding: 0 130px;
+  }
+  .slick-prev {
+    left: 79% !important;
+  }
+  .slick-next {
+    right: 46px !important;
+  }
+}
+@media (max-width: 1400px) {
+  .nav-link {
+    margin-left: 0rem !important;
+  }
+  .sign_in_button {
+    margin-left: 0 !important;
+  }
+
+  .news_letter_inner_div h1 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 1000px) {
+  .footer {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .side_padding {
+    padding: 0 50px;
+  }
+  .banner_padding {
+    padding: 50px 0;
+  }
+  .slick-prev {
+    display: none !important;
+  }
+  .slick-next {
+    display: none !important;
+  }
+  .hot_it_works_heading h1 {
+    font-size: 25px;
+  }
+  .banner_section_inner h1 {
+    font-size: 44px;
+  }
+  .banner_section_inner h3 {
+    font-size: 30px;
+  }
+  .h3,
+  h3 {
+    font-size: 17px;
+  }
+  .Deal_of_heading_div h1 {
+    font-size: 30px;
+  }
+  .register_inner_div h1 {
+    font-size: 36px;
+    line-height: normal;
+  }
+  .news_letter_inner_div {
+    width: 93%;
+  }
+  .blogs p {
+    font-size: 16px !important;
+    line-height: normal !important;
+  }
+  .blog_banner_section h1 {
+    font-weight: 700;
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .our_pricing_plan {
+    padding-top: 47px;
+    padding-bottom: 129px;
+  }
+  .Deal_of_heading_div h1 {
+    font-size: 25px;
+  }
+  .Shedule_div h3 {
+    font-size: 13px;
+  }
+  .user_icons_blog {
+    justify-content: start !important;
+  }
+}
+@media (max-width: 744px) {
+  .register_inner_div {
+    text-align: center;
+  }
+  .news_letter_inner_div {
+    text-align: center;
+  }
+}
+@media (max-width: 680px) {
+  .full_width {
+    width: 100% !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0.5rem 0;
+  }
+}
+@media (max-width: 568px) {
+  .side_padding {
+    padding: 0 30px;
+  }
+  .price_plan_heading_content p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .banner_section_inner h3 {
+    font-size: 22px;
+  }
+  .banner_section_inner h1 {
+    font-size: 35px;
+  }
+  .register_inner_div h1 {
+    font-size: 25px;
+    line-height: normal;
+  }
+  .register_inner_div p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: normal;
+  }
+  .Deal_of_heading_div {
+    text-align: center;
+  }
+  .Shedule_div h3 {
+    font-size: 12px;
+  }
+  .tabs_card {
+    overflow: visible;
+    width: 100%;
+    display: block !important;
+  }
+  .howitworks_heading {
+    font-size: 1.7rem;
+  }
+  .sign_in_inner_div h1 {
+    font-size: 3rem;
+  }
+  .switch_section h1 {
+    font-size: 2rem;
+  }
+  .contact_info p {
+    font-size: 12px !important;
+    line-height: normal;
+  }
+  .contact_info h3 {
+    font-size: 20px !important;
+  }
+  .user_products_card {
+    display: block !important;
+  }
+  .user_products_card h3 {
+    color: var(--darkbg) !important;
+  }
+  .user_products_card h3 {
+    font-size: 30px !important;
+  }
+  .user_products_card p {
+    font-size: 20px !important;
+  }
+  .user_products_card {
+    display: grid !important;
+    place-content: center;
+  }
+  .navbar-brand h1 {
+    font-size: 24px;
+  }
+  .myAccountOptionNum input {
+    width: 100% !important;
+  }
+}
+@media (max-width: 420px) {
+  .Top_Header {
+    display: none;
+  }
+  .tabs_card p {
+    font-size: 14px;
+  }
+  .footer p {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .user_sub_img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .User_Winner_Div {
+    width: 70px !important;
+    height: 70px !important;
+  }
+}

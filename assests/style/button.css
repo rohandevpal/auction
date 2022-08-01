@@ -1,0 +1,131 @@
+/* Buttons */
+.Subcribe_button {
+  padding: 0.5rem 1.6rem;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
+  border: 2px solid var(--LightRedColor);
+  color: var(--LightRedColor);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.Subcribe_button_sm {
+  padding: 0.3rem 1.3rem;
+  border-radius: 30px;
+  background-color: transparent;
+  border: none;
+  background-color: var(--LightRedColor);
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 1rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+}
+
+.View_More_Button {
+  border: none;
+  background-color: var(--LightRedColor);
+  border-radius: 30px;
+  color: var(--MainColor);
+  padding: 0.4rem 1.3rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+}
+
+.Register_Button {
+  border: none;
+  background-color: var(--MainColor);
+  border-radius: 30px;
+  color: var(--DarkColor);
+  padding: 0.8rem 4rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+  font-weight: bold;
+}
+.Read_more_button {
+  color: var(--LightRedColor);
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+.send_button {
+  border: none;
+  background-color: var(--LightRedColor);
+  padding: 1.3rem 4rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+  font-weight: bold;
+  color: var(--MainColor);
+}
+.Register_Button_One {
+  border: none;
+  border-radius: 5px;
+  background-color: var(--LightRedColor);
+  color: var(--MainColor);
+  padding: 0.8rem 4rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+  font-weight: bold;
+}
+.Add_to_cart {
+  border: none;
+  border-radius: 30px;
+  background-color: var(--LightRedColor);
+  color: var(--MainColor);
+  padding: 0.6rem 2rem;
+  box-shadow: 0px 10px 20px -10px rgba(202, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.login_with_button {
+  margin: 0 0.5rem;
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border: 1px solid var(--SecondMainColor);
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.login_with_button img {
+  width: 30px;
+  margin-bottom: 2px;
+  margin-right: 1rem;
+}
+
+.logIn_button {
+  padding: 0.8rem 2.6rem;
+  border-radius: 30px;
+  border: none;
+  background-color: var(--LightRedColor);
+  color: var(--MainColor);
+}
+.send_Button {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: var(--LightRedColor);
+  color: var(--MainColor);
+  border: none;
+  font-size: 1.4rem;
+}
+.replay_Button {
+  border: none;
+  background-color: transparent;
+  color: var(--LightRedColor);
+}
+.post_button {
+  padding: 0.5rem 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+  background-color: var(--LightRedColor);
+  border: none;
+  color: var(--MainColor);
+  font-size: 0.8rem;
+}
+.placeabit_Button {
+  padding: 0.6rem 3rem;
+  background-color: var(--Price);
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  color: var(--MainColor);
+  font-weight: bold;
+}
+/* Buttons */

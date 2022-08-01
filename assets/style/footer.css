@@ -1,0 +1,56 @@
+/* footer */
+.footer {
+  background-color: var(--DarkColor);
+}
+.footer h1 {
+  font-size: 22px;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.footer_icons i {
+  color: var(--MainColor);
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+.footer a {
+  text-decoration: none;
+  color: var(--DarkGrayColor);
+}
+.footer_second {
+  border-top: 1px solid rgb(36, 36, 36);
+}
+.footer_second p {
+  margin: 0;
+}
+
+.newsLetter_search {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.newsLetter_search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem;
+}
+
+.newlettButton {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--LightRedColor);
+  color: var(--MainColor);
+  border-radius: 30px;
+  margin-left: -100px;
+  cursor: pointer;
+  border:0px;
+}
+/* footer */

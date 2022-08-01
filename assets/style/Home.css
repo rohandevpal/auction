@@ -1,0 +1,413 @@
+/* banner section */
+/* header_banner_section */
+.header_banner_section {
+  background-image: url(../icons&images/Real-Estate-Web-Banner-7815.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner_section_inner h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.banner_section_inner h3 {
+  font-size: 80px;
+}
+.banner_section_inner p {
+  font-size: 20px;
+}
+/* header_banner_section */
+
+/* headerBanner_inner_input_div */
+.headerBanner_inner_input_div {
+  width: 100%;
+  margin: auto;
+  background-color: var(--MainColor);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(42.1011px);
+}
+.headerBanner_input_inner {
+  background-color: var(--MainColor);
+}
+.headerBanner_server_div {
+  background-color: var(--LightGrayColor);
+  width: 100%;
+  padding: 0.7rem;
+  position: relative;
+}
+.headerBanner_server_div input {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.headerBanner_search_icons_div {
+  width: 30px;
+  height: 100%;
+  border: 1px solid;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background-color: var(--LightGrayColor);
+  border: none;
+}
+/* headerBanner_inner_input_div */
+/* banner section */
+
+/* How it works */
+/* hot_it_works_heading */
+.hot_it_works_heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.step_Content_Div p {
+  color: var(--DarkGrayColor);
+}
+/* hot_it_works_heading */
+/* How it works */
+
+/* Popular action */
+/* Popular Auction products card */
+.popular_auction_card_div {
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--MainColor);
+  position: relative;
+  padding: 1rem 2rem;
+  overflow: hidden;
+  padding-top:50px !important;
+}
+.Auction_products_badge {
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  background-color: var(--LightRedColor);
+  padding: 0.3rem 0.5rem;
+  border-radius: 10px;
+}
+.Auction_products_badge p {
+  margin: 0;
+}
+.Auction_products_content {
+  width: 100%;
+}
+.Auction_products_content h2 {
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 27px;
+}
+.auction_progress_bar {
+  border-radius: 22px;
+  height: 19px;
+  background-color: var(--lightbg);
+}
+.auction_progress_bar .progress-bar {
+  background-color: var(--ActiveBarColor);
+}
+.auction_price_div {
+  border-top: 1px dotted var(--SecondMainColor);
+  border-bottom: 1px dotted var(--SecondMainColor);
+}
+.auction_price_div p {
+  margin-bottom: 0;
+}
+.auction_price_inner_div h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+.Shedule_div {
+  width: 100%;
+  background-color: var(--SmNavbarColorGreen);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Shedule_div h3 {
+  font-size: 16px;
+  margin-bottom: 0 !important;
+}
+.popular_auction_card_div img {
+  width: auto;
+  height: 200px;
+}
+/* Popular Auction products card */
+/* Popular action */
+
+/* deal_of_the_day */
+.deal_of_the_day {
+  background-image: url(../icons&images/Group\ 157.png);
+  background-position: center;
+  background-size: cover;
+}
+.deal_of_main_div {
+  border-bottom: 0.7px solid #bba0c4;
+}
+.deal_of_the_day_banne_div img {
+  border-radius: 10px;
+  box-shadow: 0px 40px 40px -10px rgba(0, 0, 0, 0.1);
+}
+.Deal_of_heading_div h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.slick-initialized .slick-slide {
+  margin-right: 1rem;
+}
+/* Slider Item */
+.item {
+  margin-left: 10px !important;
+}
+.slick-next,
+.slick-prev {
+  top: -60px !important;
+  position: absolute;
+  transform: scale(2) !important;
+}
+.slick-prev {
+  left: 90% !important;
+}
+.slick-next {
+  right: 46px !important;
+}
+/* Slider Item */
+/* deal_of_the_day */
+
+/* Upcomming changes section */
+/* tabs_card */
+.tabs_card {
+  width: 700px;
+  background: var(--tabsbgColor);
+  border-radius: 41px;
+  overflow: hidden;
+}
+.tabs_card > div {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.active_tab_div {
+  border-bottom: 2px solid var(--LightRedColor);
+}
+.active_tab {
+  color: var(--LightRedColor);
+}
+.tabs_card p {
+  margin: 0 !important;
+}
+.popular_auction_card_div.text-center.py-3 img {
+  width: auto;
+  height: 200px;
+}
+/* tabs_card */
+/* Upcomming changes section */
+
+/* Featured auction section */
+.Featured_auction_banner_div {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  background-size: cover;
+  padding: 1rem 2rem;
+}
+.Featured_auction_banner_div h1 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 41px;
+  color: var(--MainColor);
+}
+.Featured_Banner_One {
+  background-image: url(../icons&images/Group\ 413.png);
+}
+.Featured_Banner_Two {
+  background-image: url(../icons&images/Group\ 414.png);
+}
+/* Featured auction section */
+
+/* Testimonial */
+/* Testimonial Cards */
+.userCard_testimonial {
+  width: 100%;
+  background-color: var(--MainColor);
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 2rem;
+}
+.user_profile {
+  margin-top: -80px;
+}
+.userCard_testimonial .user_content_details {
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--DarkGrayColor);
+}
+.userCard_testimonial h4 {
+  font-size: 1.3rem;
+}
+.userCard_testimonial h5 {
+  font-size: 14px;
+}
+/* .slider_two .slick-slide20 {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+} */
+.slider_two .userCard_testimonial {
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+}
+/* Testimonial Cards */
+/* Testimonial */
+
+/* Our Pricing Plans  */
+.our_pricing_plan {
+  background-image: url(../icons&images/BANNER.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 120px;
+  padding-bottom: 200px;
+  z-index: 200;
+}
+.white_heading {
+  color: var(--MainColor);
+}
+/* Price_Cards */
+.price_plan_card_inner_div {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: var(--MainColor);
+}
+.price_plan_heading {
+  width: 100%;
+  padding: 2rem;
+  background-color: var(--TabsButtonBgColor);
+}
+.price_card_margin_div {
+  margin-top: -196px;
+}
+.price_plan_heading h1 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.price_plan_heading_content p {
+  font-size: 22px;
+  line-height: 40px;
+}
+.Price_Dolar {
+  font-size: 60px;
+  font-weight: bold;
+}
+.Price_Dolar span {
+  font-size: 2rem;
+  color: var(--DarkColor);
+}
+.activeBar_plan {
+  background-color: var(--LightRedColor);
+}
+.activeBar_plan h1 {
+  color: var(--MainColor);
+}
+/* Price_Cards */
+/* Our Pricing Plans  */
+
+/* Register for free start */
+.register_for_free {
+  background-image: url(../icons&images/BANNER.png);
+  background-position: center;
+  background-size: cover;
+}
+.register_inner_div h1 {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 61px;
+}
+.register_inner_div p {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+}
+/* Register for free start */
+
+/* Latest News Update */
+/* News Post Div */
+.post_div .post_img_div {
+  width: 100%;
+  position: relative;
+}
+.post_div p {
+  margin: 0;
+}
+.post_img_div img {
+  width: 100%;
+  height: auto;
+}
+.post_date_div {
+  background-color: var(--SmNavbarColorGreen);
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.2rem 1rem;
+}
+.post_date_div h3 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+.post_date_div span {
+  font-size: 1rem;
+}
+.post_date_div span {
+  color: var(--MainColor) !important;
+}
+.post_div h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+.post_div .post_discription {
+  line-height: 25px;
+}
+/* News Post Div */
+/* Latest News Update */
+
+/* News Letter Section */
+.news_letter_inner_div {
+  width: 80%;
+  background-color: var(--MainColor);
+  padding: 3rem 1rem;
+  box-shadow: 25px 0px 50px rgba(0, 0, 0, 0.05);
+}
+.news_letter_inner_div h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.input_group_div {
+  height: 70px;
+}
+.inner_input {
+  width: 100%;
+  height: 100%;
+}
+.input_group_div .inner_input input {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--tabsbgColor);
+}
+.news_icons {
+  background-color: var(--tabsbgColor);
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* News Letter Section */

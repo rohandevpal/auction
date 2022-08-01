@@ -1,0 +1,26 @@
+.myAccountOption input {
+  width: 100%;
+  border-radius: 30px;
+  height: 50px;
+  padding: 1rem;
+  border: none;
+  background-color: var(--DsColor);
+}
+
+.myAccountOption p {
+  margin-bottom: 0.5rem;
+  color: var(--DarkGrayColor);
+}
+
+.myAccountOptionNum input {
+  width: 30%;
+  border-radius: 30px;
+  height: 50px;
+  padding: 1rem;
+  border: none;
+  background-color: var(--LightRedColor);
+}
+
+.NumberInputDis::placeholder {
+  color: var(--MainColor);
+}

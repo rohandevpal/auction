@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  color: #000;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/45816/noisy-bg.png') #27ae60;
+}
+.cont{
+  height: 100%;
+  width: 576px;
+  left: calc(50% - 288px);
+  padding: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+#progress-bar{
+  appearance:none;
+  width: 576px;
+  color: #000;
+  height: 2px;
+  margin: 0 auto;
+}
+span {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+  border: 3px solid #137CC0;
+  background:#137CC0;
+  position: absolute;
+  left:0;
+  top: 12px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+p{
+  font-family: Arial;
+  font-size: 14pt;
+  text-shadow: 1px 1px 0px #000;
+  color: #fff;
+  text-align: center;
+}
+h1{
+   font-family: Arial;
+  font-size: 24pt;
+  text-shadow: 1px 1px 0px #000;
+  color: #fff;
+  text-align: center; 
+  margin:0;
+  padding:0;
+}
+h3{
+  font-family: Arial;
+  font-size: 16pt;
+  text-shadow: 1px 1px 0px #000;
+  color: #fff;
+  text-align: center; 
+}
+.second{
+  left: 192px;
+}
+.third{
+  left: 384px;
+}
+.fourth{
+  left: 576px;
+}
+#progress-bar::-webkit-progress-value{ /* Changes line color */
+  background: #fff;
+  transition: all 0.4s ease-in-out;
+}
+#progress-bar::-webkit-progress-bar{ /* Changes background color */
+  background: #137CC0;
+}
+.border-change{
+  border-color:#fff;
+  transition: all 0.4s ease-in-out;
+}

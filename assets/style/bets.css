@@ -1,0 +1,68 @@
+.footer {
+  margin: 0 !important;
+}
+
+/* bets_section */
+.bets_section h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.bitCards {
+  width: 100%;
+  padding: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 50px rgb(224, 223, 223);
+}
+.bitCard_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bitCard_icon img {
+  width: 30px;
+}
+.bg_one {
+  background-color: var(--downPrice);
+}
+.bg_two {
+  background-color: var(--SmNavbarColorGreen);
+}
+.bg_three {
+  background-color: var(--Price);
+}
+.bg_four {
+  background-color: var(--LightRedColor);
+}
+.bitCard_Contnet {
+  margin-left: 1rem;
+}
+.bitCard_Contnet p {
+  margin: 0;
+}
+.userBitting_current {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgb(231, 231, 231);
+}
+.userBitting_current h1 {
+  font-size: 1.4rem;
+}
+.userBitting_current p {
+  margin-bottom: 0;
+}
+.user_icons_profile {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.user_icons_profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* bets_section */

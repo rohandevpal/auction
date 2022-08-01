@@ -1,0 +1,130 @@
+.footer {
+  margin: 0;
+}
+
+/* Auction win cards section */
+.AuctionWinner_Card_div {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 0 50px #929292;
+}
+.Auction_Winner_inner_card {
+  width: 100%;
+  background-color: var(--LightRedColor);
+  border-radius: 15px;
+  padding: 2rem 0;
+}
+.Auction_Winner_inner_card h3 {
+  font-size: 0.9rem;
+  color: var(--MainColor);
+}
+.User_Winner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.User_Winner_Div {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 3px solid var(--MainColor);
+}
+.User_Winner_Div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.first_winner {
+  transform: scale(1.3);
+  margin-bottom: 2.2rem;
+}
+.user_Price_Contnet {
+  color: var(--MainColor);
+  padding: 0.5rem;
+}
+.user_Price_Contnet p {
+  font-size: 0.5rem;
+  margin: 0;
+}
+.user_Price_Contnet h3 {
+  font-size: 0.9rem;
+}
+.Winner_Time {
+  border-radius: 30px;
+  background-color: var(--smoothlightGray);
+}
+.auctionCard_Content {
+  padding: 1rem;
+}
+.auctionCard_Content .progress {
+  border-radius: 30px;
+  background-color: var(--lightbg);
+}
+.auctionCard_Content .progress .progress-bar {
+  background-color: var(--LightRedColor);
+}
+.allCard_div {
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--smoothlightGray);
+  border-radius: 4px;
+}
+.allCard_div p {
+  margin-bottom: 0;
+}
+.allCard_div .uerWinner_icons {
+  width: 50px;
+  height: 50px;
+  background-color: var(--LightRedColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  color: var(--MainColor);
+}
+.auctionList_div_content {
+  padding: 1rem 3rem;
+  width: 100%;
+  background-color: var(--LightRedColor);
+  border-radius: 10px;
+}
+.auctionList_div_content h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+.user_sub_cards {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 50px #cacaca;
+}
+.user_sub_img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.user_sub_cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user_sub_img img {
+  border-radius: 50%;
+}
+.user_sub_img h1 {
+  font-size: 1.3rem;
+}
+.user_sub_img p {
+  margin-bottom: 0;
+}
+.user_sub_card h1 {
+  font-size: 1.7rem;
+  margin-bottom: 0;
+}
+.user_sub_card p {
+  margin-bottom: 0;
+}
+/* Auction win cards section */
+
+/* /////////////////////////////////////////// */

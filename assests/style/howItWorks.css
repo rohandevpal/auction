@@ -1,0 +1,63 @@
+/* banner section */
+.Banner_Section_div {
+  background-image: url('../icons&images/banner.jpg');
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Banner_Section_div h1 {
+  font-weight: 700;
+}
+.Banner_Section_div span {
+  color: var(--LightRedColor);
+}
+/* banner section */
+
+/* How to works section */
+.How_it_works_content h1 {
+  font-weight: 800;
+  font-size: 45px;
+}
+/* How to works section */
+.howItWorks_image {
+  border-radius: 3rem;
+}
+.howitworks_heading {
+  font-weight: 800;
+  font-size: 2.7rem;
+}
+.howitworks_para {
+  color: #878787;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.number_circle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #ff6000;
+  border: 2px solid #ff6000;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.dot_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.doted {
+  display: inline-block;
+  background-color: #e4e4e4;
+  height: 25px;
+  width: 4px;
+  border-radius: 3rem;
+  margin-bottom: 10px;
+}

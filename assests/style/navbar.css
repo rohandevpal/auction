@@ -1,0 +1,44 @@
+/* Top Header */
+.Top_Header {
+  background-color: var(--SmNavbarColorGreen);
+  padding: 0.5rem;
+}
+
+.Top_Header_Inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Top_Navbar_Inner_Sm_div {
+  display: flex;
+  align-items: center;
+}
+
+.Top_Navbar_Inner_Sm_div p {
+  margin: 0;
+}
+
+.Top_Navbar_Inner_Sm_div i {
+  margin: 0 0.8rem;
+  color: var(--MainColor);
+}
+/* Top Header */
+
+/* second navbar */
+
+.navbar-brand h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.nav-item {
+  margin: 0 0.5rem;
+}
+/* .nav-link {
+  margin-left: 2rem !important;
+} */
+.active_header {
+  color: var(--LightRedColor) !important;
+}
+
+/* second navbar */

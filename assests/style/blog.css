@@ -1,0 +1,53 @@
+.blog_banner_section h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.blog_banner_section p {
+  margin-bottom: 0;
+}
+
+.blogs p {
+  font-size: 18px;
+  line-height: 35px;
+  text-align: justify;
+}
+
+.comments_section h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.commentsUsers h3 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.commentsUsers p {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.comment_date {
+  font-size: 15px;
+}
+
+.comments_box h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.message_aria textarea {
+  width: 100%;
+  border: 1px solid var(--LightGrayColor);
+  outline: none;
+  padding: 1rem;
+}
+
+.message_aria input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid var(--LightGrayColor);
+  outline: none;
+  padding: 1rem;
+}

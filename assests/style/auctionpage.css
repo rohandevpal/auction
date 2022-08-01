@@ -1,0 +1,16 @@
+.line {
+  width: 0.5rem;
+  color: orange;
+}
+.purchase_now {
+  margin: 10rem 0rem 0rem 0rem;
+}
+.buy_Button {
+  height: 3rem;
+  width: 80%;
+}
+.image_product {
+  height: 15rem;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(124, 122, 122, 0.23);
+  border-radius: 0.7rem;
+}

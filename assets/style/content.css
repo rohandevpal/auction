@@ -1,0 +1,70 @@
+.contact_row {
+  border-radius: 6px;
+  background-color: var(--MainColor);
+  position: relative;
+  box-shadow: 0 0 10px #999;
+}
+.contact_heading {
+  font-weight: bold;
+  font-size: 30px;
+}
+.contact_page_input_inner {
+  border: 1px solid var(--borderColor);
+  height: 60px;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+.text-aria-div {
+  height: auto;
+}
+
+.contact_page_input_inner input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+.contact_page_input_inner .message_aria {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 1rem 0;
+}
+.contact_icons {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.message_icons_div {
+  height: 50px;
+}
+.send_Button img {
+  width: 20px;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.contact_info {
+  width: 100%;
+  height: 100%;
+  background-image: url(../icons&images/Group\ 440.png);
+  background-position: center;
+  background-size: cover;
+}
+.contact_info h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+.contact_info p {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 0;
+}
+.contact_icons_div img {
+  margin: 0 0.6rem;
+  cursor: pointer;
+}
+.map_container {
+  z-index: 2;
+  margin-top: -200px;
+}

@@ -1,0 +1,77 @@
+.footer {
+  margin: 0 !important;
+}
+
+.Wallet_card h1 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.BalanceDiv p {
+  font-size: 1.8rem;
+  color: var(--ActiveBarColor);
+  font-weight: 700;
+}
+
+.BalanceDiv span {
+  color: var(--ActiveBarColor);
+  font-size: 1.2rem;
+}
+
+.transionDiv {
+  padding: 1rem 0;
+  border: 1px solid var(--borderColor);
+  border-right: transparent;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+
+.transionDiv h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.transionDiv p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.transferData h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.transferData P {
+  margin-bottom: 0;
+}
+
+.transferMoney_Div {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upper {
+  border: 2px solid var(--Price);
+}
+
+.upper i {
+  color: var(--Price);
+}
+
+.upperPrice h3 {
+  color: var(--Price);
+}
+
+.lower {
+  border: 2px solid var(--downPrice);
+}
+
+.lower i {
+  color: var(--downPrice);
+}
+
+.lowerPrice h3 {
+  color: var(--downPrice);
+}

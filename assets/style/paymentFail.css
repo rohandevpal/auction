@@ -1,0 +1,8 @@
+.failedCard {
+  background-color: var(--MainColor);
+}
+
+.failedCard h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}

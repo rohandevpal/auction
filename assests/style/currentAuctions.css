@@ -1,0 +1,44 @@
+.currentAuction_container1-para {
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.currentAuction_heading {
+  line-height: 30px;
+}
+
+.currentAuction_heading > h2 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+}
+.currentAuction_heading > span {
+  display: inline-block;
+  width: 30%;
+  height: 3px;
+  background-color: var(--LightRedColor);
+}
+.currentAuction_container1-para2 {
+  color: #878787;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+.currentAuction_container1-para3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.currentAuction_container1-para3 > span {
+  color: var(--LightRedColor);
+  font-size: 2.7rem;
+}
+.cart_btn {
+  padding: 10px 30px;
+  background-color: var(--LightRedColor);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 3rem;
+}
+.side_padding2 {
+  padding: 0 200px;
+}
